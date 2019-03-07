@@ -8,7 +8,7 @@ const newHeader = document.createElement('h1')
 newHeader.id = "victory"
 // <h1 style="background-color: red;">
 // <h1 id="victory"></h1>
-newHeader.innerHTML ="Kerben is the champion!"
+newHeader.innerText ="Kerben is the champion!"
 document.body.appendChild(newHeader)
 // <body>
 // <h1 id="victory">Kerben is the champion'</h1>
